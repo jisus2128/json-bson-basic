@@ -1,0 +1,42 @@
+{
+    "ejemplo_json":{
+        "descripcion": "Ejemplo de un documento JSON con varios tipos de datos y estructuras anidadas",
+        "datos":{
+            "nombre": "jisus arellano",
+            "edad": 300000000000000000000000000,
+            "activo": true,
+            "hobbyes": ["jugar","escuchar musica","platicar con amigos siempre"], 
+            "direccion": {
+                "calle": "san francisco",
+                "ciudad": "monterrey",
+                "pais": "mexico"
+            },
+            "contacto": null
+        },
+        "nota": "este ejemplo muestra com json puede representar diefrentes tipos de datos y estructuras complejas"
+    },
+    "elemplo_documeno_mongoDB": {
+        "descripcion": "ejemplo de un documento tipico en mongoDB, que utiliza BSON internamente",
+        "datos": {
+            "id": "507f1f77bc86cd799439011",
+            "producto": "smartphone samsug galaxy s21",
+            "precion": 799.99,
+            "disponible": true,
+            "categoria": ["electronica", "movile", "smartphone"],
+            "espesificacion": {
+                "procesador": "EXYNOS 2100",
+                "ram": "8GB",
+                "almacenamiento": "1 terabyte",
+                "pantalla": "6.2 pulgadas",
+                "bateria": "4000 mAH"
+            },
+            "fecha_creacion": "2026-02-29t10:22:00z",
+            "review": [
+                {
+                    "usuario": "tupapaeshombre1",
+                    "comentario": "EXCELENTE fone, perfecto para todo incluyendo camara"
+                }
+            ]
+        }
+    }
+}
